@@ -1,0 +1,110 @@
+.header{
+    margin-top: 70px;
+    background-image: url("https://static8.depositphotos.com/1244201/1042/i/450/depositphotos_10428337-stock-photo-black-cloth-background.jpg");
+    transition: 5s;
+    height: 400px;
+    
+    box-shadow: 0px 10px 20px black;
+    
+}
+
+
+.im{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.subtitulo{
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:996px) {
+
+.titulo{
+    font-size: 45px;
+}
+
+}
+
+
+@media screen and (max-width:906px) {
+
+    .titulo{
+        font-size: 40px;
+    }
+    .subtitulo{
+        font-size: 32px;
+    }
+    
+    }
+
+    @media screen and (max-width:798px) {
+
+        .titulo{
+            font-size: 35px;
+        }
+        .subtitulo{
+            font-size: 28px;
+        }
+        
+        }
+
+        @media screen and (max-width:700px) {
+
+            .titulo{
+                font-size: 30px;
+            }
+            .subtitulo{
+                font-size: 25px;
+            }
+            
+            }
+
+            @media screen and (max-width:610px) {
+
+                .titulo{
+                    font-size: 25px;
+                }
+                .subtitulo{
+                    font-size: 20px;
+                }
+
+
+                
+                }
+
+                @media screen and (max-width:502px) {
+
+                    .titulo{
+                        font-size: 22px;
+                    }
+                    .subtitulo{
+                        font-size: 20px;
+                    }
+                    
+                    }
